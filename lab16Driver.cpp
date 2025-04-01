@@ -6,7 +6,8 @@ int main()
 {
     int a, b;
 
-    cout <<" Enter two integer values you want to find the GCF of: ";
+    cout << "Enter two integer values you want to find the GCF of: ";
     cin >> a >> b;
-    cout << "The greatest common factor of " << a  <<" and " << b << " is " << gcf(a,b)<< endl;
+    cout << "The greatest common factor of " << a << " and " << b << " is " << gcf(a, b) << endl;
 }
+
